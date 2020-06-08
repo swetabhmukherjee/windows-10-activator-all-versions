@@ -4,7 +4,7 @@ Simple Windows 10 Activator Code without installing any softwares
 # Steps
 
 1. Download the repository.
-2. Run the `windows10.cmd` file.
+2. Run the `windows10.cmd` file by right-clicking on the file and choosing 'Run as Administrator'.
 3. Wait for the process to finish.
 4. Your Windows 10 will be activated.
 
