@@ -10,7 +10,7 @@ if %i%==2 set KMS=kms8.MSGuides.com
 if %i%==3 set KMS=kms9.MSGuides.com
 if %i%==4 goto notsupported
 cscript //nologo slmgr.vbs /skms %KMS%:1688 >nul&echo ============================================================================&echo.&echo.
-cscript //nologo slmgr.vbs /ato | find /i "successfully" && (echo.&echo ============================================================================&echo.&echo &echo.&echo &echo.&echo #Please feel free to contact me at swetabh.libra@gmail.com if you have any questions or concerns.&echo.&echo &echo #Your support is helping me keep my servers running everyday!&echo.&echo ============================================================================&choice /n /c YN /m "Would you like to visit my blog [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto server)
+cscript //nologo slmgr.vbs /ato | find /i "successfully" && (echo.&echo ============================================================================&echo.&echo.
 explorer "http://microsoft.com"&goto halt
 :notsupported
 echo ============================================================================&echo.&echo Sorry! Your version is not supported.&echo.
